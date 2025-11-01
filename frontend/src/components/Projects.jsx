@@ -66,7 +66,7 @@ const Projects = () => {
           Projects
         </h2>
 
-        <div className="space-y-8">
+        <div className="space-y-12">
           {projects.map((project, index) => (
             <div
               key={index}
@@ -75,9 +75,9 @@ const Projects = () => {
               }`}
               style={{ transitionDelay: `${index * 150}ms` }}
             >
-              <div className="flex flex-col md:flex-row">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
                 {/* Project Image */}
-                <div className="md:w-1/3 h-64 md:h-auto overflow-hidden">
+                <div className="relative h-80 lg:h-auto overflow-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
@@ -86,27 +86,25 @@ const Projects = () => {
                 </div>
 
                 {/* Project Details */}
-                <div className="md:w-2/3 p-6 flex flex-col justify-between">
-                  <div>
-                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                      {project.title}
-                    </h3>
-                    <p className="text-blue-500 font-semibold mb-4">{project.date}</p>
-                    <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
-                      {project.description}
-                    </p>
+                <div className="p-8 flex flex-col justify-center">
+                  <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-3">
+                    {project.title}
+                  </h3>
+                  <p className="text-blue-500 font-semibold mb-4">{project.date}</p>
+                  <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
+                    {project.description}
+                  </p>
 
-                    {/* Technologies */}
-                    <div className="flex flex-wrap gap-2 mb-6">
-                      {project.technologies.map((tech, techIndex) => (
-                        <span
-                          key={techIndex}
-                          className="px-3 py-1 bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm font-medium"
-                        >
-                          {tech}
-                        </span>
-                      ))}
-                    </div>
+                  {/* Technologies */}
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    {project.technologies.map((tech, techIndex) => (
+                      <span
+                        key={techIndex}
+                        className="px-3 py-1.5 bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm font-medium"
+                      >
+                        {tech}
+                      </span>
+                    ))}
                   </div>
 
                   {/* Links */}
@@ -116,7 +114,7 @@ const Projects = () => {
                         href={project.demo}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-500 to-violet-500 text-white rounded-lg hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105"
+                        className="flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-blue-500 to-violet-500 text-white rounded-lg hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105 font-medium"
                       >
                         <ExternalLink className="w-4 h-4" />
                         View Project
@@ -127,7 +125,7 @@ const Projects = () => {
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-2 px-4 py-2 bg-gray-700 dark:bg-gray-800 text-white rounded-lg hover:bg-gray-800 dark:hover:bg-gray-700 transition-all duration-300 hover:scale-105"
+                        className="flex items-center gap-2 px-5 py-2.5 bg-gray-700 dark:bg-gray-800 text-white rounded-lg hover:bg-gray-800 dark:hover:bg-gray-700 transition-all duration-300 hover:scale-105 font-medium"
                       >
                         <Github className="w-4 h-4" />
                         Code
