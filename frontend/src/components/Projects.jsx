@@ -66,72 +66,70 @@ const Projects = () => {
           Projects
         </h2>
 
-        <div className="space-y-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <div
               key={index}
-              className={`bg-gray-100 dark:bg-[#0D1B2A] rounded-xl shadow-lg overflow-hidden hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-500 ${
+              className={`bg-gray-100 dark:bg-[#0D1B2A] rounded-xl shadow-lg overflow-hidden hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-500 hover:scale-105 flex flex-col ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
               }`}
-              style={{ transitionDelay: `${index * 150}ms` }}
+              style={{ transitionDelay: `${index * 100}ms` }}
             >
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-                {/* Project Image */}
-                <div className="relative h-80 lg:h-auto overflow-hidden">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-                  />
+              {/* Project Image */}
+              <div className="relative h-56 overflow-hidden">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+
+              {/* Project Details */}
+              <div className="p-6 flex flex-col flex-grow">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2 line-clamp-2">
+                  {project.title}
+                </h3>
+                <p className="text-blue-500 font-semibold text-sm mb-3">{project.date}</p>
+                <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed text-sm line-clamp-3 flex-grow">
+                  {project.description}
+                </p>
+
+                {/* Technologies */}
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {project.technologies.map((tech, techIndex) => (
+                    <span
+                      key={techIndex}
+                      className="px-2.5 py-1 bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-xs font-medium"
+                    >
+                      {tech}
+                    </span>
+                  ))}
                 </div>
 
-                {/* Project Details */}
-                <div className="p-8 flex flex-col justify-center">
-                  <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-3">
-                    {project.title}
-                  </h3>
-                  <p className="text-blue-500 font-semibold mb-4">{project.date}</p>
-                  <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-                    {project.description}
-                  </p>
-
-                  {/* Technologies */}
-                  <div className="flex flex-wrap gap-2 mb-6">
-                    {project.technologies.map((tech, techIndex) => (
-                      <span
-                        key={techIndex}
-                        className="px-3 py-1.5 bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm font-medium"
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-
-                  {/* Links */}
-                  <div className="flex gap-4">
-                    {project.demo && (
-                      <a
-                        href={project.demo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-blue-500 to-violet-500 text-white rounded-lg hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105 font-medium"
-                      >
-                        <ExternalLink className="w-4 h-4" />
-                        View Project
-                      </a>
-                    )}
-                    {project.github && (
-                      <a
-                        href={project.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 px-5 py-2.5 bg-gray-700 dark:bg-gray-800 text-white rounded-lg hover:bg-gray-800 dark:hover:bg-gray-700 transition-all duration-300 hover:scale-105 font-medium"
-                      >
-                        <Github className="w-4 h-4" />
-                        Code
-                      </a>
-                    )}
-                  </div>
+                {/* Links */}
+                <div className="flex gap-3 mt-auto">
+                  {project.demo && (
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1.5 px-4 py-2 bg-gradient-to-r from-blue-500 to-violet-500 text-white rounded-lg hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105 text-sm font-medium flex-1 justify-center"
+                    >
+                      <ExternalLink className="w-3.5 h-3.5" />
+                      View Project
+                    </a>
+                  )}
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1.5 px-4 py-2 bg-gray-700 dark:bg-gray-800 text-white rounded-lg hover:bg-gray-800 dark:hover:bg-gray-700 transition-all duration-300 hover:scale-105 text-sm font-medium flex-1 justify-center"
+                    >
+                      <Github className="w-3.5 h-3.5" />
+                      Code
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
