@@ -33,7 +33,7 @@ const Projects = () => {
       description:
         'Built a real-time phishing detection system integrating ML + Chrome Extension. Processed 5,000+ URLs for live classification with Flask + TensorFlow backend, achieving 75% improvement in phishing prediction accuracy.',
       technologies: ['Python', 'TensorFlow', 'Flask', 'Chrome Extension', 'NLP'],
-      image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&auto=format&fit=crop',
+      image: 'https://customer-assets.emergentagent.com/job_devfolio-spandana/artifacts/uc7sbn2c_Screenshot%202025-11-01%20152825.png',
       github: 'https://github.com/spandana726/AI-based-Phishing-Detection-System',
       demo: null,
     },
@@ -43,7 +43,7 @@ const Projects = () => {
       description:
         'Developed a computer vision system using OpenCV and CNN models to detect vitamin deficiencies from facial images. Achieved 90% predictive accuracy (+20% over baseline) and enhanced data quality by 80% through preprocessing.',
       technologies: ['Python', 'OpenCV', 'CNN', 'SVM', 'TensorFlow'],
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&auto=format&fit=crop',
+      image: 'https://customer-assets.emergentagent.com/job_devfolio-spandana/artifacts/vggx0bx2_Screenshot%202025-11-01%20152542.png',
       github: 'https://github.com/spandana726/Vitamin_Deficiency_Detection',
       demo: null,
     },
@@ -53,7 +53,7 @@ const Projects = () => {
       description:
         'Developing a semantic search app using YouTube Data API for context-aware video recommendations with modern AI/ML techniques for search optimization.',
       technologies: ['Python', 'AI/ML', 'YouTube API', 'Semantic Search', 'Flask'],
-      image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&auto=format&fit=crop',
+      image: 'https://customer-assets.emergentagent.com/job_devfolio-spandana/artifacts/qtpyd5en_Screenshot%202025-11-01%20152656.png',
       github: 'https://github.com/AabidMK/QueryTube_Infosys_Internship_OCT25/tree/Spandana',
       demo: null,
     },
