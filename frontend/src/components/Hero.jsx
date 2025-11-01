@@ -6,7 +6,7 @@ const Hero = () => {
   const [displayedText, setDisplayedText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
 
-  const roles = ['CSE Student', 'Software Engineer', 'AI & ML Enthusiast'];
+  const roles = ['Software Engineer', 'AI & ML Enthusiast'];
 
   useEffect(() => {
     const currentRole = roles[currentRoleIndex];
