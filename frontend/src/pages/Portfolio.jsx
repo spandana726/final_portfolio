@@ -37,7 +37,7 @@ const Portfolio = () => {
       <Header isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Hero />
       <About />
-      <Skills />
+      <SkillsWithIcons />
       <Experience />
       <Projects />
       <Certifications />
