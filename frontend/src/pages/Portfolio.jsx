@@ -10,6 +10,7 @@ import Achievements from '../components/Achievements';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import ScrollToTop from '../components/ScrollToTop';
+import { Toaster } from '../components/ui/toaster';
 
 const Portfolio = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
