@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import About from '../components/About';
-import Skills from '../components/Skills';
+import SkillsWithIcons from '../components/SkillsWithIcons';
 import Experience from '../components/Experience';
 import Projects from '../components/Projects';
 import Certifications from '../components/Certifications';
