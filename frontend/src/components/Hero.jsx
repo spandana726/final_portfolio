@@ -57,8 +57,8 @@ const Hero = () => {
 
         {/* Bio */}
         <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-          A Computer Science Engineering student passionate about Software Development, Artificial Intelligence, and Machine Learning.
-          I'm a dedicated learner with strong problem-solving skills, aiming to create innovative and scalable solutions.
+          A dedicated learner with strong problem-solving skills, aiming to create innovative and scalable solutions. 
+          Currently seeking opportunities to gain hands-on experience and contribute to impactful projects in the tech industry.
         </p>
 
         {/* Social Links & Resume */}
