@@ -43,11 +43,14 @@ const Hero = () => {
           </span>
         </h1>
 
-        {/* Typewriter Effect */}
-        <div className="text-xl sm:text-2xl md:text-3xl text-gray-700 dark:text-gray-300 mb-8 h-12 flex items-center justify-center">
-          <span>I am a </span>
-          <span className="ml-2 bg-gradient-to-r from-blue-500 to-violet-500 bg-clip-text text-transparent font-semibold">
-            {displayedText}
+        {/* Subtitle with hover effects */}
+        <div className="text-xl sm:text-2xl md:text-3xl text-gray-700 dark:text-gray-300 mb-8 flex items-center justify-center flex-wrap gap-2">
+          <span>I'm a </span>
+          <span className="relative group cursor-pointer">
+            <span className="bg-gradient-to-r from-blue-500 to-violet-500 bg-clip-text text-transparent font-semibold">
+              {displayedText}
+            </span>
+            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-violet-500 group-hover:w-full transition-all duration-300"></span>
             <span className="animate-pulse">|</span>
           </span>
         </div>
