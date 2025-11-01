@@ -45,6 +45,7 @@ const Portfolio = () => {
       <Contact />
       <Footer />
       <ScrollToTop />
+      <Toaster />
     </div>
   );
 };
