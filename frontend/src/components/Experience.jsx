@@ -37,21 +37,56 @@ const Experience = () => {
           {/* Timeline Line */}
           <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-500 to-violet-500"></div>
 
-          {/* Experience Item */}
+          {/* ===== Full Stack Developer Role (NEW) ===== */}
           <div
             className={`relative pl-20 pb-12 transition-all duration-700 ${
               isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
             }`}
           >
-            {/* Timeline Dot */}
             <div className="absolute left-0 top-0 w-16 h-16 rounded-full bg-gradient-to-r from-blue-500 to-violet-500 flex items-center justify-center shadow-lg shadow-blue-500/50">
               <Briefcase className="w-8 h-8 text-white" />
             </div>
 
-            {/* Content */}
             <div className="bg-gray-100 dark:bg-[#0D1B2A] p-6 rounded-xl shadow-lg hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                Intern
+                Full Stack Developer Intern
+              </h3>
+              <h4 className="text-xl text-blue-500 font-semibold mb-3">
+                UTORO Industries Private Limited
+              </h4>
+              <p className="text-gray-600 dark:text-gray-400 mb-4 font-medium">
+                January 2026 – Present
+              </p>
+              <ul className="space-y-3 text-gray-700 dark:text-gray-300">
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0"></span>
+                  <span>
+                    Designing a modern ecommerce web interface using Next.js, TypeScript, and Tailwind CSS with a focus on responsive UI.
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0"></span>
+                  <span>
+                    Developing core shopping features including product listing, authentication flow, cart, and checkout experience.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* ===== Infosys Springboard Role (EXISTING) ===== */}
+          <div
+            className={`relative pl-20 pb-12 transition-all duration-700 ${
+              isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
+            }`}
+          >
+            <div className="absolute left-0 top-0 w-16 h-16 rounded-full bg-gradient-to-r from-blue-500 to-violet-500 flex items-center justify-center shadow-lg shadow-blue-500/50">
+              <Briefcase className="w-8 h-8 text-white" />
+            </div>
+
+            <div className="bg-gray-100 dark:bg-[#0D1B2A] p-6 rounded-xl shadow-lg hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300">
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
+                AI-ML Intern
               </h3>
               <h4 className="text-xl text-blue-500 font-semibold mb-3">
                 Infosys Springboard Virtual Internship
@@ -62,19 +97,26 @@ const Experience = () => {
               <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0"></span>
-                  <span>Developing QueryTube AI, a semantic search app using YouTube Data API for context-aware video recommendations.</span>
+                  <span>
+                    Developing QueryTube AI, a semantic search app using YouTube Data API for context-aware video recommendations.
+                  </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0"></span>
-                  <span>Designing and integrating front-end and back-end architecture for a scalable user experience.</span>
+                  <span>
+                    Designing and integrating front-end and back-end architecture for a scalable user experience.
+                  </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0"></span>
-                  <span>Working on data retrieval, semantic indexing, and search optimization using modern AI/ML techniques.</span>
+                  <span>
+                    Working on data retrieval, semantic indexing, and search optimization using modern AI/ML techniques.
+                  </span>
                 </li>
               </ul>
             </div>
           </div>
+
         </div>
       </div>
     </section>

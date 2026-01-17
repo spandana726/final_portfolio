@@ -51,11 +51,14 @@ const SkillsWithIcons = () => {
         { name: 'Scikit-learn', icon: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg' },
         { name: 'NumPy', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg' },
         { name: 'Pandas', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg' },
+        { name: 'FastAPI', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg' },
+        { name: 'Flask', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg' },
       ],
     },
     {
       title: 'Tools / Platforms',
       skills: [
+        { name: 'Git', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg' },
         { name: 'GitHub', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg' },
         { name: 'VS Code', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg' },
         { name: 'Jupyter', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg' },
@@ -77,6 +80,9 @@ const SkillsWithIcons = () => {
       skills: [
         { name: 'Node.js', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg' },
         { name: 'Advanced React', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg' },
+        { name: 'LLMs', icon: 'https://img.icons8.com/fluency/96/artificial-intelligence.png' },
+        { name: 'RAG', icon: 'https://img.icons8.com/fluency/96/data-configuration.png' },
+        { name: 'Prompt Engineering', icon: 'https://img.icons8.com/fluency/96/engineering.png' },
       ],
     },
   ];
