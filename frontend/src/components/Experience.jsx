@@ -92,25 +92,19 @@ const Experience = () => {
                 Infosys Springboard Virtual Internship
               </h4>
               <p className="text-gray-600 dark:text-gray-400 mb-4 font-medium">
-                October 2025 – Present
+                October 2025 – January 2026
               </p>
               <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0"></span>
                   <span>
-                    Developing QueryTube AI, a semantic search app using YouTube Data API for context-aware video recommendations.
+                   Created QueryTube AI, an intelligent video search platform using semantic search, vector embeddings, and ChromaDB, enabling natural-language retrieval of YouTube content with high accuracy and low latency.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0"></span>
                   <span>
-                    Designing and integrating front-end and back-end architecture for a scalable user experience.
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0"></span>
-                  <span>
-                    Working on data retrieval, semantic indexing, and search optimization using modern AI/ML techniques.
+                    Implemented a FastAPI backend with CSV ingestion, vector indexing, top-K similarity search, and Google Gemini AI summaries, alongside a responsive React UI with real-time results and deep linking.
                   </span>
                 </li>
               </ul>
