@@ -26,66 +26,180 @@ const SkillsWithIcons = () => {
   }, []);
 
   const skillCategories = [
-    {
-      title: 'Programming Languages',
-      skills: [
-        { name: 'C++', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg' },
-        { name: 'Java', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg' },
-        { name: 'Python', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg' },
-        { name: 'JavaScript', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg' },
-        { name: 'SQL', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg' },
-      ],
-    },
-    {
-      title: 'Web Technologies',
-      skills: [
-        { name: 'HTML', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg' },
-        { name: 'CSS', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg' },
-        { name: 'React', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg' },
-      ],
-    },
-    {
-      title: 'Frameworks / Libraries',
-      skills: [
-        { name: 'TensorFlow', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg' },
-        { name: 'Scikit-learn', icon: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg' },
-        { name: 'NumPy', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg' },
-        { name: 'Pandas', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg' },
-        { name: 'FastAPI', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg' },
-        { name: 'Flask', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg' },
-      ],
-    },
-    {
-      title: 'Tools / Platforms',
-      skills: [
-        { name: 'Git', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg' },
-        { name: 'GitHub', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg' },
-        { name: 'VS Code', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg' },
-        { name: 'Jupyter', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg' },
-        { name: 'Google Colab', icon: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg' },
-      ],
-    },
-    {
-      title: 'Core Concepts',
-      skills: [
-        { name: 'DSA', icon: 'https://img.icons8.com/fluency/96/sorting-algorithm.png' },
-        { name: 'OS', icon: 'https://img.icons8.com/fluency/96/windows-10.png' },
-        { name: 'OOP', icon: 'https://img.icons8.com/fluency/96/code.png' },
-        { name: 'Networking', icon: 'https://img.icons8.com/fluency/96/network.png' },
-        { name: 'DBMS', icon: 'https://img.icons8.com/fluency/96/database.png' },
-      ],
-    },
-    {
-      title: 'Currently Learning',
-      skills: [
-        { name: 'Node.js', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg' },
-        { name: 'Advanced React', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg' },
-        { name: 'LLMs', icon: 'https://img.icons8.com/fluency/96/artificial-intelligence.png' },
-        { name: 'RAG', icon: 'https://img.icons8.com/fluency/96/data-configuration.png' },
-        { name: 'Prompt Engineering', icon: 'https://img.icons8.com/fluency/96/engineering.png' },
-      ],
-    },
-  ];
+  {
+    title: 'Programming Languages',
+    skills: [
+      {
+        name: 'Java',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg',
+      },
+      {
+        name: 'Python',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg',
+      },
+      {
+        name: 'JavaScript',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg',
+      },
+      {
+        name: 'SQL',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg',
+      },
+      {
+        name: 'HTML',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg',
+      },
+      {
+        name: 'CSS',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg',
+      },
+    ],
+  },
+  {
+    title: 'Frameworks',
+    skills: [
+      {
+        name: 'FastAPI',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg',
+      },
+      {
+        name: 'Flask',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg',
+      },
+      {
+        name: 'React.js',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg',
+      },
+      {
+        name: 'Node.js',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg',
+      },
+      {
+        name: 'REST APIs',
+        icon: 'https://img.icons8.com/fluency/96/api-settings.png',
+      },
+    ],
+  },
+  {
+    title: 'AI Technologies',
+    skills: [
+      {
+        name: 'LLMs',
+        icon: 'https://img.icons8.com/fluency/96/artificial-intelligence.png',
+      },
+      {
+        name: 'LangChain',
+        icon: 'https://python.langchain.com/img/favicon.ico',
+      },
+      {
+        name: 'TensorFlow',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg',
+      },
+      {
+        name: 'PyTorch',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg',
+      },
+      {
+        name: 'Scikit-learn',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg',
+      },
+      {
+        name: 'NLP',
+        icon: 'https://img.icons8.com/fluency/96/chatbot.png',
+      },
+      {
+        name: 'NumPy',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg',
+      },
+      {
+        name: 'Pandas',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg',
+      },
+    ],
+  },
+  {
+    title: 'Databases & Tools',
+    skills: [
+      {
+        name: 'MySQL',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg',
+      },
+      {
+        name: 'SQLite',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg',
+      },
+      {
+        name: 'Firebase',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg',
+      },
+      {
+        name: 'AWS',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg',
+      },
+      {
+        name: 'Git',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg',
+      },
+      {
+        name: 'GitHub',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg',
+      },
+      {
+        name: 'CI/CD',
+        icon: 'https://img.icons8.com/fluency/96/deployment.png',
+      },
+      {
+        name: 'ETL Pipelines',
+        icon: 'https://img.icons8.com/fluency/96/data-configuration.png',
+      },
+      {
+        name: 'VS Code',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg',
+      },
+      {
+        name: 'Jupyter Notebook',
+        icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg',
+      },
+      {
+        name: 'Google Colab',
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg',
+      },
+    ],
+  },
+  {
+    title: 'Core Concepts',
+    skills: [
+      {
+        name: 'DSA',
+        icon: 'https://img.icons8.com/fluency/96/sorting-algorithm.png',
+      },
+      {
+        name: 'Operating Systems',
+        icon: 'https://img.icons8.com/fluency/96/windows-10.png',
+      },
+      {
+        name: 'DBMS',
+        icon: 'https://img.icons8.com/fluency/96/database.png',
+      },
+      {
+        name: 'OOP',
+        icon: 'https://img.icons8.com/fluency/96/code.png',
+      },
+      {
+        name: 'Networking',
+        icon: 'https://img.icons8.com/fluency/96/network.png',
+      },
+      {
+        name: 'Agile',
+        icon: 'https://img.icons8.com/fluency/96/sprint-iteration.png',
+      },
+      {
+        name: 'SDLC',
+        icon: 'https://img.icons8.com/fluency/96/project.png',
+      },
+    ],
+  },
+];
 
   return (
     <section id="skills" ref={sectionRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-[#0a0a0a]">
