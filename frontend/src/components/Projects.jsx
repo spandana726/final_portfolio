@@ -44,7 +44,7 @@ const Projects = () => {
         'LLMs',
       ],
       image:
-        'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=1200&q=80',
+        'https://images.pexels.com/photos/7088524/pexels-photo-7088524.jpeg',
       github:
         'https://github.com/spandana726/AI-Powered-Multilingual-Medication-Assistant',
       demo: null,
