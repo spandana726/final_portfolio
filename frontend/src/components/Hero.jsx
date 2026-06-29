@@ -89,7 +89,7 @@ const Hero = () => {
             <Mail className="w-6 h-6" />
           </a>
           <a
-            href="https://drive.google.com/file/d/1aK3ij7IVChpjZAvAPktlScl0--7ptCEt/view?usp=sharing"
+            href="https://drive.google.com/file/d/1H35y6VfsAhfcHtf_RUSGEqMj-2DO51ok/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-violet-500 text-white font-semibold rounded-full hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105"

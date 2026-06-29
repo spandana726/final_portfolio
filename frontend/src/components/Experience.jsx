@@ -37,7 +37,7 @@ const Experience = () => {
           {/* Timeline Line */}
           <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-500 to-violet-500"></div>
 
-          {/* ===== Full Stack Developer Role (NEW) ===== */}
+          {/* ===== Full Stack Developer Role ===== */}
           <div
             className={`relative pl-20 pb-12 transition-all duration-700 ${
               isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
@@ -61,20 +61,26 @@ const Experience = () => {
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0"></span>
                   <span>
-                    Designing a modern ecommerce web interface using Next.js, TypeScript, and Tailwind CSS with a focus on responsive UI.
+                    Engineered scalable e-commerce modules, including authentication, product catalog, cart, and checkout using React.js, JavaScript, Node.js, and REST APIs, improving page load performance by 30%.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0"></span>
                   <span>
-                    Developing core shopping features including product listing, authentication flow, cart, and checkout experience.
+                    Strengthened system reliability with Firebase Realtime Database and Authentication for secure synchronization.
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0"></span>
+                  <span>
+                    Optimized backend API architecture while implementing CI/CD pipelines using GitHub Actions, achieving 40% faster response times, improving concurrent request handling, and streamlining deployment workflows.
                   </span>
                 </li>
               </ul>
             </div>
           </div>
 
-          {/* ===== Infosys Springboard Role (EXISTING) ===== */}
+          {/* ===== Infosys Springboard Role ===== */}
           <div
             className={`relative pl-20 pb-12 transition-all duration-700 ${
               isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
@@ -89,7 +95,7 @@ const Experience = () => {
                 AI-ML Intern
               </h3>
               <h4 className="text-xl text-blue-500 font-semibold mb-3">
-                Infosys Springboard Virtual Internship
+                Infosys Springboard
               </h4>
               <p className="text-gray-600 dark:text-gray-400 mb-4 font-medium">
                 October 2025 – January 2026
@@ -98,13 +104,19 @@ const Experience = () => {
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0"></span>
                   <span>
-                   Created QueryTube AI, an intelligent video search platform using semantic search, vector embeddings, and ChromaDB, enabling natural-language retrieval of YouTube content with high accuracy and low latency.
+                    Developed a scalable semantic search engine processing 10,000+ records using Python, embeddings, and efficient ChromaDB, enabling sub-second information retrieval.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0"></span>
                   <span>
-                    Implemented a FastAPI backend with CSV ingestion, vector indexing, top-K similarity search, and Google Gemini AI summaries, alongside a responsive React UI with real-time results and deep linking.
+                    Designed FastAPI-based data ingestion and retrieval pipelines to optimize backend performance, reducing response time by 35% while supporting scalable system architecture.
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0"></span>
+                  <span>
+                    Enhanced search relevance by implementing vector similarity search and optimized indexing techniques, improving precision of Top-K retrieval across large datasets.
                   </span>
                 </li>
               </ul>

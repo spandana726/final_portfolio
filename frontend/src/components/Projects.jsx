@@ -28,6 +28,48 @@ const Projects = () => {
 
   const projects = [
     {
+      title: 'AI-Powered Multilingual Medication Assistant',
+      date: 'May 2026',
+      description:
+        'Architected an LLM-powered multilingual healthcare assistant using Python, Streamlit, LangChain, Ollama, and TinyLlama for intelligent medication management. Integrated Whisper-based speech recognition, NLP medicine extraction, APScheduler reminders, SQLite storage, and offline chatbot support.',
+      technologies: [
+        'Python',
+        'Streamlit',
+        'LangChain',
+        'Ollama',
+        'TinyLlama',
+        'Whisper',
+        'SQLite',
+        'APScheduler',
+        'LLMs',
+      ],
+      image:
+        'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=1200&q=80',
+      github:
+        'https://github.com/spandana726/AI-Powered-Multilingual-Medication-Assistant',
+      demo: null,
+    },
+    {
+      title: 'Deep Learning Model for Image Dehazing System',
+      date: 'November 2025',
+      description:
+        'Built a deep learning image dehazing system using PyTorch and DADFNet to improve visual clarity. Automated ETL pipelines for preprocessing and inference using Python and NumPy, and deployed FastAPI model-serving APIs for real-time image enhancement.',
+      technologies: [
+        'Python',
+        'PyTorch',
+        'DADFNet',
+        'FastAPI',
+        'NumPy',
+        'Deep Learning',
+        'Computer Vision',
+        'ETL',
+      ],
+      image:
+        'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&q=80',
+      github: 'https://github.com/spandana726',
+      demo: null,
+    },  
+    {
       title: 'AI-Based Phishing Detection System',
       date: 'May 2024 – July 2024',
       description:

@@ -44,10 +44,7 @@ const About = () => {
               Hi, I'm Gunaganti Spandana
             </h3>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-              A Computer Science Engineering student passionate about Software Development, Artificial Intelligence, and Machine Learning.
-            </p>
-            <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              I'm passionate about learning, exploring cutting-edge technologies, and building AI-powered, full-stack applications that solve real-world challenges. My goal is to collaborate with professionals and contribute to impactful projects that make a difference in the tech industry.
+              Software Engineer experienced in Python, Java, scalable backend development, REST APIs, and AI-powered applications. Built production-ready software using ML, LLMs, and CI/CD pipelines to deliver high-performance, reliable, and scalable solutions. Strong foundation in DSA, DBMS, OOP, and SDLC.
             </p>
           </div>
 
@@ -73,7 +70,7 @@ const About = () => {
                 </p>
                 <div className="flex justify-between text-sm text-gray-600 dark:text-gray-400">
                   <span>2022 - Present</span>
-                  <span>CGPA: 8.49/10</span>
+                  <span>CGPA: 8.56/10</span>
                 </div>
               </div>
 
